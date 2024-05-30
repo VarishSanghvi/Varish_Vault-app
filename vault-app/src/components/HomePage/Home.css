@@ -1,0 +1,35 @@
+.home {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fdfcfb; /* Cream background for a consistent look */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home h1 {
+  color: #5a5a5a; /* Dark gray for headings */
+}
+
+.home p {
+  color: #434343; /* Slightly lighter gray for paragraphs */
+}
+
+.home-buttons {
+  margin-top: 2rem;
+}
+
+.home-button {
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  background-color: #5a5a5a; /* Dark gray for buttons */
+  color: #fff; /* Keep text white for contrast */
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home-button:hover {
+  background-color: #434343; /* Darker shade of gray on hover */
+}

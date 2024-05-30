@@ -1,0 +1,62 @@
+.file-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fdfcfb; /* Cream background */
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5a5a5a; /* Dark gray text */
+}
+
+.file-list-container h2 {
+  color: #434343; /* Slightly darker gray for heading */
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns, increase size */
+  grid-gap: 30px; /* Increased space between grid items */
+  width: 100%;
+  max-width: 1200px; /* Increased max width for larger containers */
+}
+
+li {
+  background-color: #fff; /* White background for list items */
+  border: 1px solid #ccc; /* Subtle border for each item */
+  padding: 20px; /* Increased padding for larger appearance */
+  border-radius: 5px; /* Rounded corners for elegance */
+  display: flex;
+  flex-direction: column; /* Stack filename and buttons vertically */
+  align-items: center; /* Center alignment for contents */
+  justify-content: space-around; /* Distribute space evenly */
+}
+
+button {
+  padding: 8px 16px; /* Uniform padding for all buttons */
+  background-color: #5a5a5a; /* Dark gray for neutral action */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  width: 80%; /* Ensure buttons are the same size */
+  margin-top: 5px; /* Space between buttons and filename */
+}
+
+button:hover {
+  background-color: #434343; /* Darker gray on hover */
+}
+
+.delete-button {
+  background-color: #d9534f; /* Red for delete actions */
+}
+
+.delete-button:hover {
+  background-color: #c9302c; /* Darker red on hover */
+}
+
